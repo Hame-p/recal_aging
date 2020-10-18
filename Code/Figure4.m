@@ -1,3 +1,6 @@
+%%%
+Plot ventriloquism aftereffect data
+
 clear;
 
 mom_dir = fullfile('Z:', 'HP02');
@@ -92,6 +95,9 @@ for g = 1:length(grp)
         ylabel('vae (degree)')
     end    
     offsetAxes(gca, ofs)
+    % Anne Urai (2020). offsetAxes(ax) (https://www.mathworks.com/matlabcentral/fileexchange/52351-offsetaxes-ax), 
+    % MATLAB Central File Exchange. Retrieved October 18, 2020.
+
 end
 
 
