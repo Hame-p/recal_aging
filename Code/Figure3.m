@@ -66,7 +66,8 @@ legend boxoff
 set(ax(1), 'xtick', 1:length(models), 'xticklabels', modelst, 'fontsize', fs,'fontweight','bold', 'tickdir', 'out')
 ylabel('Model Frequency', 'fontsize', fs)
 offsetAxes(ax(1), [4 4])
-%     Anne Urai (2020). offsetAxes(ax) (https://www.mathworks.com/matlabcentral/fileexchange/52351-offsetaxes-ax), MATLAB Central File Exchange. Retrieved October 18, 2020.
+% Anne Urai (2020). offsetAxes(ax) (https://www.mathworks.com/matlabcentral/fileexchange/52351-offsetaxes-ax), 
+% MATLAB Central File Exchange. Retrieved October 18, 2020.
 
 % plot best model parameters
 ylm = [-15 50];
