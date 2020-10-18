@@ -1,3 +1,6 @@
+%%%
+Plots fitted parameters and model comparison results from causal modeling. 
+
 clear;
 
 mom_dir = fullfile('Z:', 'HP02');
