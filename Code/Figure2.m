@@ -111,7 +111,8 @@ for g = 1:length(grp)
         ylabel('ve (degree)')
     end
     offsetAxes(gca, ofs)
-%     Anne Urai (2020). offsetAxes(ax) (https://www.mathworks.com/matlabcentral/fileexchange/52351-offsetaxes-ax), MATLAB Central File Exchange. Retrieved October 18, 2020.
+% Anne Urai (2020). offsetAxes(ax) (https://www.mathworks.com/matlabcentral/fileexchange/52351-offsetaxes-ax), 
+% MATLAB Central File Exchange. Retrieved October 18, 2020.
 end
 
 filename = fullfile(fig_dir, 'Figure2');
