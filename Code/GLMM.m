@@ -1,3 +1,5 @@
+%%%
+Do GLMM on VE and VAE data
 %% 
 clear 
 
